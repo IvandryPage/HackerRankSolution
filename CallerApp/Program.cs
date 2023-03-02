@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new VeryBigSum();
+			var problemSolver = new DiagonalDifference();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
