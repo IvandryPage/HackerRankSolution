@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new SolveMeFirst();
+			var problemSolver = new SimpleArraySum();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
