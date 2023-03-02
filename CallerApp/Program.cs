@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new CompareTriplets();
+			var problemSolver = new VeryBigSum();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
