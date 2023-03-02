@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new BillDivision();
+			var problemSolver = new DrawingBook();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
