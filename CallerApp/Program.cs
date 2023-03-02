@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new BreakingTheRecords();
+			var problemSolver = new DivisibleSumPairs();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
