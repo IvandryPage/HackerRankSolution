@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new BetweenTwoSets();
+			var problemSolver = new BreakingTheRecords();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
