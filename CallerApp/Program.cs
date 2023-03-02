@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new DiagonalDifference();
+			var problemSolver = new PlusMinus();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
