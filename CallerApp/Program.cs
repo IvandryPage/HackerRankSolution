@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new CountingValleys();
+			var problemSolver = new ElectronicsShop();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
