@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new MigratoryBirds();
+			var problemSolver = new DayOfTheProgrammer();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
