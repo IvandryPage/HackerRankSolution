@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new BirthdayCakeCandles();
+			var problemSolver = new TimeConversion();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
