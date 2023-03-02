@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new GradingStudents();
+			var problemSolver = new AppleAndOrange();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
