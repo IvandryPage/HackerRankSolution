@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new MinMaxSum();
+			var problemSolver = new BirthdayCakeCandles();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
