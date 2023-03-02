@@ -10,7 +10,8 @@ namespace ProblemSolving
 	{
 		public void Invoke()
 		{
-			throw new NotImplementedException();
+			int year = 2023;
+			dayOfProgrammer(year);
 		}
 
 		public static string dayOfProgrammer(int year)
