@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new ClimbingTheLeaderboard();
+			var problemSolver = new AppendAndDelete();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
