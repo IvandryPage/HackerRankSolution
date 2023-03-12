@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new CutTheSticks();
+			var problemSolver = new RepeatedString();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
