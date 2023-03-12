@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new AppendAndDelete();
+			var problemSolver = new CutTheSticks();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
