@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new JumpingOnClouds();
+			var problemSolver = new EqualizeArray();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
