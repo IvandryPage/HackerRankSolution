@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new RepeatedString();
+			var problemSolver = new JumpingOnClouds();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
