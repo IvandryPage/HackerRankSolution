@@ -28,13 +28,6 @@ namespace ProblemSolving
 				possibleIndexRemainders[remainder] += 1;
 			}
 
-			for (int index = 0; index < k / 2; index++)
-			{
-				if (index + 1 == k - index - 1)
-				{
-					count++;
-					continue;
-				}
 
 				count += Math.Max(possibleIndexRemainders[index], possibleIndexRemainders[k - index]);
 			}
