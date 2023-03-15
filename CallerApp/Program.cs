@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new EqualizeArray();
+			var problemSolver = new NonDivisibleSubset();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
