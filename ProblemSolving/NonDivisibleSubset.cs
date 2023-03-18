@@ -20,15 +20,20 @@ namespace ProblemSolving
 		{
 			int count = 0;
 			int[] possibleIndexRemainders = new int[k];
-			List<int> distinctNumbers = s.ToHashSet().ToList();
 
-			for(int i = 0; i < distinctNumbers.Count; i++)
+			for(int i = 0; i < s.Count; i++)
 			{
-				int remainder = distinctNumbers[i] % k;
+				int remainder = s[i] % k;
 				possibleIndexRemainders[remainder] += 1;
 			}
 
-
+			for(int index = 1; index <= k/2; index++)
+			{
+				if (index == k - index)
+				{
+					count++;
+					continue;
+				}
 				count += Math.Max(possibleIndexRemainders[index], possibleIndexRemainders[k - index]);
 			}
 

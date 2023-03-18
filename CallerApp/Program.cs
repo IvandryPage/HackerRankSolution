@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new NonDivisibleSubset();
+			var problemSolver = new AcmIcpcTeam();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
