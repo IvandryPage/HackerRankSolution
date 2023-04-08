@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new AcmIcpcTeam();
+			var problemSolver = new ModifiedKaprekarNumber();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);

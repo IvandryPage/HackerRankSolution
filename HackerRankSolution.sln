@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caller", "CallerApp\Caller.csproj", "{D1A1FBA2-30B6-4ABF-A008-D384C0659CAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caller", "CallerApp\Caller.csproj", "{D1A1FBA2-30B6-4ABF-A008-D384C0659CAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemSolving", "ProblemSolving\ProblemSolving.csproj", "{7B1BAE32-EB35-4FF8-92C1-1FF851AFB39B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProblemSolving", "ProblemSolving\ProblemSolving.csproj", "{7B1BAE32-EB35-4FF8-92C1-1FF851AFB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSolution", "UnitTestSolution\UnitTestSolution.csproj", "{D36CB612-CD23-4795-AFD9-3280CCE1DF80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7B1BAE32-EB35-4FF8-92C1-1FF851AFB39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B1BAE32-EB35-4FF8-92C1-1FF851AFB39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B1BAE32-EB35-4FF8-92C1-1FF851AFB39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36CB612-CD23-4795-AFD9-3280CCE1DF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36CB612-CD23-4795-AFD9-3280CCE1DF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36CB612-CD23-4795-AFD9-3280CCE1DF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36CB612-CD23-4795-AFD9-3280CCE1DF80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
