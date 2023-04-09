@@ -6,7 +6,7 @@ namespace Caller
 	{
 		static void Main(string[] args)
 		{
-			var problemSolver = new HalloweenSale();
+			var problemSolver = new ServiceLane();
 			problemSolver.Invoke();
 
 			Console.ReadKey(true);
