@@ -27,14 +27,18 @@ namespace UnitTestSolution
 		}
 
 		[Test]
-		public void Same_Value_As_Expected_Using_TestCases_Parameter()
+		[TestCase(10, 2, 5, 6)]
+		[TestCase(12, 4, 4, 3)]
+		[TestCase(6, 2, 2, 5)]
+		public void Same_Value_As_Expected_Using_TestCases_Parameter(int n, int c, int m, int expected)
 		{
 			//ARRANGE
 
 			//ACT
+			int actual = ChocolateFeast.chocolateFeast(n, c, m);
 
 			//ASSERT
-
+			Assert.That(actual, Is.EqualTo(expected));
 		}
 	}
 }
